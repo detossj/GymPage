@@ -1,9 +1,10 @@
 import Stats from "../components/Stats"
+import backgroundImage from '../../../public/img/img-gym3.webp'
 
 export const UsPage = () => {
   return (
     <div>
-      <div className="us">
+      <div className="us" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="sloganUs">
           <h1 className="animate__animated animate__fadeIn">Desafía tus límites, transforma tu cuerpo.</h1>
           <h4 className="animate__animated animate__fadeIn">En nuestro gimnasio, no solo entrenamos cuerpos, 

@@ -20,7 +20,7 @@ export const AppRouter = () => {
           <Route path='/plans' element={ <PlansPage/> }/>
           <Route path='/contact' element={ <ContactPage/> }/>
           <Route path='/' element={ <Navigate to='/start'/> }/>
-        S</Routes>
+        </Routes>
 
 
     
