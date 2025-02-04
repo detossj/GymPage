@@ -9,7 +9,7 @@ export const NavBar =   React.memo(() => {
         className="navbar-brand" 
         to="/"
     >
-        <img src="/img/icon.webp" loading='lazy' alt="" />
+        <img src="/icon.webp" loading='lazy' alt="" />
     </Link>
 
     <div className="navbar-collapse">
